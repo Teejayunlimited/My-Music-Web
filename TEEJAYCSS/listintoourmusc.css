@@ -1,0 +1,212 @@
+
+
+
+.textbox{
+    float: left;
+    border: 0px solid black;
+    margin-left: 45%;
+    margin-top: 2%;
+    
+
+}
+
+ul li{
+    float: left;
+    width: 100px;
+    text-transform: capitalize;
+    list-style: none;
+    font-family: kalim park , sans-serif;
+    
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a :hover{
+    color: hotpink;
+}
+
+b{
+    color: hotpink;
+    border-bottom: 2px solid hotpink;
+    font-weight: normal;
+}
+
+
+body{
+    background-image: linear-gradient(80deg, rgb(68, 68, 68), rgb(199, 10,144));
+    background-size: cover;
+}
+
+.cover{
+    border: 1px solid black;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 16px 7px;
+    opacity: 0.6;
+
+}
+
+.subcover{
+    border-bottom: 1px solid none;
+    background: black;
+    width: 300px;
+    height: 450px;
+    opacity: 0.6;
+    border-radius: 8px;
+}
+
+.coverimage{
+    text-align: center;
+
+}
+img{
+    border-radius: 20px;
+    position: absolute;
+    left: 17%;
+    top: 5%;
+    margin: -10px -9px;
+    opacity: 0.7;
+
+}
+
+.text{
+    position: absolute;
+    left:22%;
+    top: 48%;
+    margin: -1px 30px;
+
+}
+
+h1{
+    color: white;
+    font-family: kulim park,sans-serif;
+
+    font-weight: normal;
+    margin-bottom: 7%;
+    top: 17%;
+    margin-left: -20%;
+
+}
+
+h2{
+    color: white;
+    font-family: kulim park sans-serif;
+    font-weight: normal;
+    opacity: 0.3;
+    margin-top: -10%;
+    left: -25%;
+    position: absolute;
+}
+
+.line{
+    border-bottom: 2px solid white;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    width: 220px;
+    box-shadow: 1px 0px 4px;
+    color: rgb(253, 252, 253);
+}
+
+.fa-circle{
+    color: rgb(255, 246, 250);
+    position: absolute;
+    left: 35%;
+    margin-top: -8px;
+}
+
+.number{
+
+}
+
+h3{
+    position: absolute;
+    left: 15%;
+    top: 66%;
+    font-size: 14px;
+    color: white;
+    font-family: kulim park , sans-serif;
+    font-weight: normal;
+}
+
+h4{
+    position: absolute;
+    left: 81%;
+    top: 66%;
+    font-size: 14px;
+    color: white;
+    font-family:kulim park ,sans-serif ;
+    font-weight: normal;
+
+}
+
+.player{
+    border-bottom: 1px solid black;
+    font-size: 50px;
+}
+
+.fa-solid {
+    color: hotpink;
+    position: absolute;
+    left: 45%;
+    top: 70%;
+}
+
+.forward{
+    font-size: 33px;
+    color: white;
+    position: absolute;
+    left: 65%;
+    top: 72%;
+
+}
+
+
+.forward:hover{
+    font-size: 45px;
+}
+
+
+.backward{
+    font-size: 33px;
+    color: wheat;
+    position: absolute;
+    left: 26%;
+    top: 72%;
+}
+
+.backward:hover{
+    font-size: 45px;
+}
+
+.retweet{
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    left: 13%;
+    top: 65%;
+}
+
+.repeat{font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    left: 26%;
+    top: 65%;
+
+}
+
+
+
+
+
+
+

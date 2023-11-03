@@ -1,0 +1,95 @@
+*{
+    font-family: 'poppins' sans-serif;
+    margin: 0 ; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+
+ img{
+        width: 40%;
+        position: relative;
+        padding-left: 150px;
+        left: 250px;
+        top: 200px;
+
+    
+    }
+
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        min-height: 100vh; 
+        background-image: linear-gradient(80deg, rgb(67, 69, 70), rgb(80, 6, 59));
+        padding-bottom: 70px;
+    }   
+
+
+    .bodywork {
+        padding: 30px;
+        width: 700px;
+        background: #fff;
+        box-shadow: 0 10px 10px rgb(0, 0, 0);
+        padding-top: 0%;
+        
+    
+    }
+    
+     
+
+    .container .bodywork .label{
+        flex:1 1 250px;}
+
+
+      input{
+            width: 80%;
+            border: 3px solid #ccc;
+            padding: 10px  10px;
+            font-size: 15px;
+            -moz-box-align: center;
+            box-sizing: content-box;
+        
+            
+    
+      }
+            
+            
+            input{
+                margin-bottom: 5px;
+                display: block;}
+
+
+
+                 .col label{
+                    width: 50%;
+              padding: 10px  10px;
+                    font-size: 15px;
+                    text-transform: none;
+                    gap: 15px;
+                    display: flex; 
+            
+
+                    
+                }
+.col select{ 
+    border: 6px solid #ccc;
+
+}
+
+
+                             
+                      
+
+
+
+        
+
+
+
+
+

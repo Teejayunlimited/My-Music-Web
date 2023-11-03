@@ -1,0 +1,163 @@
+html {
+    background-image: linear-gradient(80deg, rgb(28, 37, 41), rgb(199, 10,144));
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+
+
+.content{
+    padding-right: 20%;
+    padding-top: 50%;
+    position: absolute;
+    width: 120%;
+   letter-spacing: 5px;
+   color: #fff;
+   font-size: 17px;
+   font-family: inherit;
+
+}
+
+.content button{
+    width: 30%;
+    border: 3px solid black;
+     background-image: linear-gradient(80deg, rgb(22, 45, 54), rgb(228, 27, 171));
+     color: #fff;
+     font-size: 15px;
+     padding: 12px 0;
+     border-radius: 50%;
+}
+
+.content h1{
+    font-family: sans-serif ;
+    
+width: 40%;
+
+}
+
+.content p{
+   letter-spacing: normal;
+   width:50% ;  
+
+
+
+}
+
+.menu-bar{
+    background-color: rgba(0, 0, 0, 0.5);
+
+    height: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%;
+
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+
+}
+
+.logo span {
+    color: turquoise;
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-bar ul li {
+    padding: 10px  30px;
+}
+
+.menu-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+    transition: all 0.3s;
+}
+
+.menu-bar ul li a:hover {
+    color: turquoise;
+}
+
+.hero {
+    height: calc(100vh - 80px);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    width: 75vmin;
+    position:absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(- 50, -50%);
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 28px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.img-container{
+    width: 99%;
+    margin: none;
+    right: 50%;
+    margin: bottom 5px 1px;
+    display: flex;
+    animation: slide 20s infinite;
+}
+
+img {
+    width: 100%;
+    
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+}
+
+30%{ 
+    transform: translateX(-100%);
+
+}
+50% {
+    transform: translateX(-100%);
+   
+}   
+
+56% {
+    transform: translateX(-200%);
+}      
+
+70% {
+    transform: translateX(-200%);
+
+}
+
+80%{
+    transform: translateX(-300%);
+ 
+}
+
+100%{
+    transform: translateX(-300%);}
+}
